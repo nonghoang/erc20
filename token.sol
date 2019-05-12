@@ -150,7 +150,7 @@ contract StandardToken is Token {
     }
 }
 
-contract GOSToken is StandardToken {
+contract DappChannel is StandardToken {
     string public constant name = "Dapp Channel";
     string public constant symbol = "DAC";
     uint256 public constant decimals = 18;
